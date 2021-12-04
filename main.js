@@ -71,6 +71,6 @@ const timer = document.getElementById('timer');
     }
     
     setButtonStateInitial()
-    timer.textContent = '0:0:0:0';
+    timer.textContent = '00:00';
     elapsedTime = 0;
   });
